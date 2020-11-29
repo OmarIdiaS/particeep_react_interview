@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  }
+
+  body *{
+      font-family: "San Francisco";
+  }
+.iconDelete{
+    position: absolute;
+    top: 0; 
+    right: 0;
+    cursor: pointer;
+}
+
+.iconDelete svg path{
+    fill: red;
+}
+.iconLike{
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+.iconLike svg path, .iconDislike svg path{
+    fill: #3298dc;
+}
+
+
+
+.iconDislike{
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.svg-inline--fa.fa-w-16{
+    width : 0.6em;
+}
+.iconNbLike{
+    position: absolute;
+    bottom: 5px;
+    left: 45px;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.iconNbDislike{
+    position: absolute;
+    bottom: 5px;
+    right: 45px;
+    padding: 10px 10px 10px 10px !important;
+}
+
+.category{
+    color: #ffffff;
+}
+
+.card-movie{
+    background: linear-gradient(to top, rgba(0,0,0), rgba(0,0,0,0.3));
+}
+
+.nbCards{
+    position: absolute;
+    right: 0;
+}
+.c {margin: 5px;}
+
+.nextPage{
+    background-color: #3298dc !important;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hero{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: #ffffff !important;
+}
+
+.titleMovie{
+    font-size: 1.7rem !important;
+}
+
+.categ{
+    background-color: rgb(201, 194, 194) !important;
+}
+
+.btn.tag{
+    border: none;
+}
+
+@media screen and (min-width: 769px){
+    .is-3.card-movie{
+        margin: 10px !important;
+        width: 23% ;
+    }
+}
